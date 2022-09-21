@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 
-
 int string_length (const char string[])
 {
     int count = 0;
@@ -10,8 +9,6 @@ int string_length (const char string[])
         count++;
     }
    
-
-
     return count;
 }
 

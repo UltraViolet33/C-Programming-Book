@@ -7,6 +7,7 @@ struct time
     int seconds;
 };
 
+
 int main (void)
 {
     struct time time_update (struct time now);

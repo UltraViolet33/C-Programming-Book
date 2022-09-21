@@ -7,6 +7,7 @@ struct time
     int seconds;
 };
 
+
 int main (void)
 {
     struct time time_update (struct time now);
@@ -17,16 +18,11 @@ int main (void)
     for (i = 0; i < 5; i++)
     {
         printf("Time : %.2i:%.2i:%.2i\n", times_test[i].hour, times_test[i].minutes, times_test[i].seconds);
-
         times_test[i] = time_update(times_test[i]);
-
         printf("Time on second later... : %.2i:%.2i:%.2i\n", times_test[i].hour, times_test[i].minutes, times_test[i].seconds);
-
     }
 
-
     return 0;
-
 }
 
 
