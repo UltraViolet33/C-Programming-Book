@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
     printf("1. In C, lowercase letters are significant.\n");
     printf("2. main() is where program execution begins.\n");

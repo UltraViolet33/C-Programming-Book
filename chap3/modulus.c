@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
     int a = 25;
     int b = 5;
@@ -13,7 +13,6 @@ int main (void)
     printf("a %% c = %i\n", a % c);
     printf("a %% d = %i\n", a % d);
     printf("a / d * d + a %% d = %i\n", a / d * d + a % d);
-
 
     return 0;
 }

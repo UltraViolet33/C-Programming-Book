@@ -12,10 +12,8 @@ void calculate_triangular_number(int n)
     printf("Triangular number %i is %i\n", n, triangular_number);
 }
 
-
-int main (void)
+int main(void)
 {
-
     calculate_triangular_number(10);
     calculate_triangular_number(20);
     calculate_triangular_number(30);

@@ -1,29 +1,26 @@
 #include <stdio.h>
 
-
-int main (void)
+int main(void)
 {
-
     float value1, value2;
     char operator;
 
     printf("Type in your expression: \n");
-    scanf("%f %c %f", &value1, &operator, &value2);
+    scanf("%f %c %f", &value1, &operator, & value2);
 
-    if (operator == '+')
+    if (operator== '+')
     {
         printf("%.2f\n", value1 + value2);
     }
-    else if (operator == '-')
+    else if (operator== '-')
     {
         printf("%.2f\n", value1 - value2);
-
     }
-    else if (operator == '*')
+    else if (operator== '*')
     {
         printf("%.2f\n", value1 * value2);
     }
-    else if (operator == '/')
+    else if (operator== '/')
     {
         if (value2 == 0)
         {

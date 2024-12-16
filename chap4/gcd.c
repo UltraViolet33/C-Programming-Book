@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
-
     int u, v, temp;
 
     printf("Please, type two nonnegative integers\n");

@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
-
     char word[] = {'H', 'e', 'l', 'l', 'o', '!'};
     int i;
 

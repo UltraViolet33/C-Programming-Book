@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
-
   int n, i;
-  
+
   printf("Type an integer n: \n");
   scanf("%i", &n);
 
@@ -13,5 +12,5 @@ int main (void)
     printf("%i x %i = %i\n", i, n, i * n);
   }
 
-    return 0;
+  return 0;
 }

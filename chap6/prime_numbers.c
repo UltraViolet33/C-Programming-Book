@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int main (void)
+int main(void)
 {
     int p, i, primes[50], prime_index = 2;
     bool is_prime;

@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
-
     int dollars, cents, count;
 
     for (count = 1; count <= 10; count++)
@@ -14,6 +13,5 @@ int main (void)
         printf("$%i.%.2i\n\n", dollars, cents);
     }
 
- 
     return 0;
 }

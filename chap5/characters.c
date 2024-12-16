@@ -1,14 +1,13 @@
 #include <stdio.h>
 
-
-int main (void)
+int main(void)
 {
     char c;
 
     printf("Enter a single character: \n");
     scanf("%c", &c);
 
-    if((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+    if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
     {
         printf("It is an alphabetic character\n");
     }
@@ -20,8 +19,6 @@ int main (void)
     {
         printf("It is a special character\n");
     }
- 
-
 
     return 0;
 }

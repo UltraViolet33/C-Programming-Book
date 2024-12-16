@@ -1,45 +1,41 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-
 struct entry
 {
     char word[15];
     char definition[50];
 };
 
-
-int lookup (const struct entry dictionary[], const char search[], const int entries);
+int lookup(const struct entry dictionary[], const char search[], const int entries);
 {
     int i;
     bool equal_strings
 }
 
-
-int main (void)
+int main(void)
 {
     const struct entry dictionary[100] =
-    {   { "aardvark", "a burrowing African mammal" },
-        { "abyss", "a bottomless pit" },
-        { "acumen", "mentally sharp; keen" },
-        { "addle", "to become confused" },
-        { "aerie", "a high nest" },
-        { "affix", "to append; attach" },
-        { "agar", "a jelly made from seaweed" },
-        { "ahoy", "a nautical call of greeting" },
-        { "aigrette", "an ornamental cluster of feathers" },
-        { "ajar", "partially opened" }
-    };
+        {{"aardvark", "a burrowing African mammal"},
+         {"abyss", "a bottomless pit"},
+         {"acumen", "mentally sharp; keen"},
+         {"addle", "to become confused"},
+         {"aerie", "a high nest"},
+         {"affix", "to append; attach"},
+         {"agar", "a jelly made from seaweed"},
+         {"ahoy", "a nautical call of greeting"},
+         {"aigrette", "an ornamental cluster of feathers"},
+         {"ajar", "partially opened"}};
 
     char word[10];
     int entries = 10;
     int entry;
 
-    int lookup (const struct entry dictionary[], const char search[], const int entries);
+    int lookup(const struct entry dictionary[], const char search[], const int entries);
 
     printf("Enter word: ");
     scanf("%14s", word);
-    entry = lookup (dictionary, word, entries);
+    entry = lookup(dictionary, word, entries);
 
     if (entry != -1)
     {

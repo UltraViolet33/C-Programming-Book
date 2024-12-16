@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-
-void auto_static (void)
+void auto_static(void)
 {
     int auto_var = 1;
     static int static_var = 1;
@@ -12,15 +11,14 @@ void auto_static (void)
     static_var++;
 }
 
-int main (void)
+int main(void)
 {
     int i;
-    void auto_static (void);
-
+    void auto_static(void);
 
     for (i = 0; i < 5; i++)
     {
-        auto_static ();
+        auto_static();
     }
 
     return 0;

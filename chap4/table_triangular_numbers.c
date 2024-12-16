@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
-
     int n, triangularNumber;
 
     printf("TABLE OF TRIANGULAR NUMBERS\n\n");

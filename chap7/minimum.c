@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-
-int minimum (int values[10])
+int minimum(int values[10])
 {
     int min_value, i;
 
@@ -18,12 +17,10 @@ int minimum (int values[10])
     return min_value;
 }
 
-
-int main (void)
+int main(void)
 {
-
     int scores[10], i, min_score;
-    int minimum (int values[10]);
+    int minimum(int values[10]);
 
     printf("Enter 10 scores\n");
 

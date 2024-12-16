@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
-    
     float f1 = 123.125;
     float f2;
 
@@ -21,9 +20,8 @@ int main (void)
     f2 = i2 / 100.0; // integer divided by a float
     printf("%i divided by 100.0 produces %f\n", i2, f2);
 
-    f2 = (float) i2 / 100; // type cast operator
+    f2 = (float)i2 / 100; // type cast operator
     printf("(float) %i divided by 100 produces %f\n", i2, f2);
-
 
     return 0;
 }

@@ -7,8 +7,7 @@ float discriminant;
 float root1;
 float root2;
 
-
-void get_numbers (void)
+void get_numbers(void)
 {
     printf("a : ");
     scanf("%f", &a);
@@ -20,8 +19,7 @@ void get_numbers (void)
     scanf("%f", &c);
 }
 
-
-float absolute_value (float x)
+float absolute_value(float x)
 {
     if (x < 0)
     {
@@ -30,8 +28,7 @@ float absolute_value (float x)
     return (x);
 }
 
-
-float square_root (float x)
+float square_root(float x)
 {
     const float epsilon = .00001;
     float guess = 1.0;
@@ -44,8 +41,7 @@ float square_root (float x)
     return guess;
 }
 
-
-void compute_discriminant (float a, float b, float c)
+void compute_discriminant(float a, float b, float c)
 {
     discriminant = (b * b) - 4 * a * c;
 }
@@ -57,23 +53,21 @@ void compute_roots(float a, float b, float c)
     root2 = (-b + square_root(discriminant)) / (2 * a);
 }
 
-
-int main (void)
+int main(void)
 {
-    void get_numbers (void);
-    float square_root (float x);
-    float absolute_value (float x);
-    void compute_discriminant (float a, float b, float c);
-    void compute_roots (float a, float b, float c);
+    void get_numbers(void);
+    float square_root(float x);
+    float absolute_value(float x);
+    void compute_discriminant(float a, float b, float c);
+    void compute_roots(float a, float b, float c);
 
-    get_numbers ();
+    get_numbers();
 
     printf("%.2fx² + %.2fx + %.2f = 0\n", a, b, c);
 
-    compute_discriminant (a, b, c);
+    compute_discriminant(a, b, c);
 
     printf("Discriminant : %2.f\n", discriminant);
-
 
     if (discriminant < 0)
     {
@@ -88,9 +82,9 @@ int main (void)
     else
     {
         printf("Discriminant is greater than zero \n");
-        compute_roots (a, b, c);
+        compute_roots(a, b, c);
         printf("There is two roots : %.2f and %.2f\n", root1, root2);
     }
 
     return 0;
-} 
+}

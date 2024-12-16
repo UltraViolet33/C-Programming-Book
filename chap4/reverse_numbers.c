@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
-
     int number, right_digit;
 
     printf("Type the integer to reverse: \n");

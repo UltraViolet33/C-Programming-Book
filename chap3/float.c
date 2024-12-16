@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
     float number1 = 3.;
     float number2 = 125.8;
@@ -12,7 +12,7 @@ int main (void)
 
     float scientific_notation2 = 1.5e2;
     printf("The number will be written wihout the scientific notation: %g\n", scientific_notation2);
-    
+
     float scientific_notation3 = 1.5e10;
     printf("The number will be written with the scientific notation: %g\n", scientific_notation3);
 

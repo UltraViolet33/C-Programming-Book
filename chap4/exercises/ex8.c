@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-
-int main (void)
+int main(void)
 {
-
     int n, number, triangular_number, counter, number_compute;
 
     printf("How many triangular numbers do you want to compute ?\n");
@@ -22,9 +20,7 @@ int main (void)
         }
 
         printf("Triangular number %i is %i\n", number, triangular_number);
-    
     }
-
 
     return 0;
 }

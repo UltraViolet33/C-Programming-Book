@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 long int x_to_the_n(int x, int n)
 {
     int i;
@@ -15,7 +13,7 @@ long int x_to_the_n(int x, int n)
     return result;
 }
 
-int main (void)
+int main(void)
 {
     long int x_to_the_n(int x, int n);
     int x;

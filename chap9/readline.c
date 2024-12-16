@@ -1,32 +1,31 @@
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
     int i;
     char line[81];
-    void read_line (char buffer[]);
+    void read_line(char buffer[]);
 
     for (i = 0; i < 3; i++)
     {
-        read_line (line);
+        read_line(line);
         printf("%s\n\n", line);
     }
 
     return 0;
 }
 
-void read_line (char buffer[])
+void read_line(char buffer[])
 {
     char character;
     int i = 0;
 
     do
     {
-        character = getchar ();
+        character = getchar();
         buffer[i] = character;
         i++;
-    }
-    while (character != '\n');
+    } while (character != '\n');
 
     buffer[i - 1] = '\0';
 }

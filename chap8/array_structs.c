@@ -7,11 +7,10 @@ struct time
     int seconds;
 };
 
-
-int main (void)
+int main(void)
 {
-    struct time time_update (struct time now);
-    struct time times_test[5] =  { {11, 59, 59}, {12, 45, 15}, {15, 21, 14}, {17, 12, 14}, {12, 23, 21} };
+    struct time time_update(struct time now);
+    struct time times_test[5] = {{11, 59, 59}, {12, 45, 15}, {15, 21, 14}, {17, 12, 14}, {12, 23, 21}};
 
     int i;
 
@@ -25,9 +24,7 @@ int main (void)
     return 0;
 }
 
-
-
-struct time time_update (struct time now)
+struct time time_update(struct time now)
 {
     now.seconds++;
 

@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-
-float absolute_value (float x)
+float absolute_value(float x)
 {
     if (x < 0)
     {
@@ -10,8 +9,7 @@ float absolute_value (float x)
     return (x);
 }
 
-
-float square_root (float x)
+float square_root(float x)
 {
     const float epsilon = .00001;
     float guess = 1.0;
@@ -24,13 +22,10 @@ float square_root (float x)
     return guess;
 }
 
-
-int main (void)
+int main(void)
 {
     printf("square_root(2.0) = %f\n", square_root(2.0));
     printf("square_root(2.0) = %f\n", square_root(16.0));
-
-
 
     return 0;
 }

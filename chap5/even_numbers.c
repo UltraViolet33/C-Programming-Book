@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-
-int main (void)
+int main(void)
 {
     int number_to_test, remainder;
 
@@ -18,7 +17,6 @@ int main (void)
     {
         printf("The number is odd\n");
     }
-
 
     return 0;
 }

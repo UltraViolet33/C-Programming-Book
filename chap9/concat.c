@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void concat (char result[], const char str1[], int n1, const char str2[], int n2)
+void concat(char result[], const char str1[], int n1, const char str2[], int n2)
 {
     int i, j;
 
@@ -15,10 +15,9 @@ void concat (char result[], const char str1[], int n1, const char str2[], int n2
     }
 }
 
-
-int main (void)
+int main(void)
 {
-    void concat (char result[], const char str1[], int n1, const char str2[], int n2);
+    void concat(char result[], const char str1[], int n1, const char str2[], int n2);
 
     const char s1[6] = {'H', 'e', 'l', 'l', 'o', ' '};
     const char s2[6] = {'W', 'o', 'r', 'l', 'd', '!'};
@@ -35,5 +34,5 @@ int main (void)
 
     printf("\n");
 
-    return 0;   
+    return 0;
 }

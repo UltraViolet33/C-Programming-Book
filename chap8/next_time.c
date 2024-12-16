@@ -1,30 +1,28 @@
 #include <stdio.h>
 
-struct time 
+struct time
 {
     int hour;
     int minutes;
     int seconds;
 };
 
-
-int main (void)
+int main(void)
 {
-    struct time time_update (struct time now);
+    struct time time_update(struct time now);
     struct time current_time, next_time;
 
     printf("Enter the time (hh:mm:ss): ");
     scanf("%i:%i:%i", &current_time.hour, &current_time.minutes, &current_time.seconds);
 
-    next_time = time_update (current_time);
+    next_time = time_update(current_time);
 
     printf("Updated time is %.2i:%.2i:%.2i\n", next_time.hour, next_time.minutes, next_time.seconds);
 
     return 0;
 }
 
-
-struct time time_update (struct time now)
+struct time time_update(struct time now)
 {
     now.seconds++;
 

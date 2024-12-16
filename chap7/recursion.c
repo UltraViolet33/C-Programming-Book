@@ -1,19 +1,18 @@
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
     unsigned int j;
-    unsigned long int factorial (unsigned int n);
-
+    unsigned long int factorial(unsigned int n);
 
     for (j = 0; j < 11; j++)
     {
-        printf("%2u! = %lu\n", j, factorial (j));
+        printf("%2u! = %lu\n", j, factorial(j));
     }
-        return 0;
+    return 0;
 }
 
-unsigned long int factorial (unsigned int n)
+unsigned long int factorial(unsigned int n)
 {
     unsigned long int result;
 
@@ -23,7 +22,7 @@ unsigned long int factorial (unsigned int n)
     }
     else
     {
-        result = n * factorial (n - 1);
+        result = n * factorial(n - 1);
     }
 
     return result;

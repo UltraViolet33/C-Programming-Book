@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int main (void)
+int main(void)
 {
-
     int p, d;
     bool is_prime;
 

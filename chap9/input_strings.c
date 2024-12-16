@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
     char s1[81], s2[81], s3[81];
 

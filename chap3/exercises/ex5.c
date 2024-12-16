@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
     char c;
     char d;
@@ -9,6 +9,6 @@ int main (void)
     d = c;
 
     printf("d = %c\n", d);
-    
-    return 0; 
+
+    return 0;
 }

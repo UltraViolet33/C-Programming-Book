@@ -14,16 +14,12 @@ int gcd(int u, int v)
     return u;
 }
 
-
-int main (void)
+int main(void)
 {
-
     int result;
 
     result = gcd(150, 35);
     printf("The gcd of 150 and 35 is %i\n", result);
-
-
 
     return 0;
 }

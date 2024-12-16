@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
-
     int fibonacci[15], i;
 
     fibonacci[0] = 0;

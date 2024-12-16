@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-
-int main (void)
+int main(void)
 {
-
     int n, number, triangular_number, counter;
 
     for (counter = 1; counter <= 5; counter++)
@@ -19,9 +17,7 @@ int main (void)
         }
 
         printf("Triangular number %i is %i\n", number, triangular_number);
-    
     }
-
 
     return 0;
 }

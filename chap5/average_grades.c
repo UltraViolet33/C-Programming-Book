@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-
-int main (void)
+int main(void)
 {
-
     int number_of_grades, i, grade;
     int grade_total = 0;
     int failure_count = 0;
@@ -25,7 +23,7 @@ int main (void)
         }
     }
 
-    average = (float) grade_total / number_of_grades;
+    average = (float)grade_total / number_of_grades;
 
     printf("\nGrade average = %.2f\n", average);
     printf("Number of failure = %i\n", failure_count);

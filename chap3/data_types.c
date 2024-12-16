@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-
-int main (void)
+int main(void)
 {
     int integer_val = 100;
     float floating_val = 331.79;
@@ -17,5 +16,4 @@ int main (void)
     printf("Bool_val = %i\n", bool_val);
 
     return 0;
-    
 }

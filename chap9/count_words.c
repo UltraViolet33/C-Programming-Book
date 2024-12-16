@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool alphabetic (const char c)
+bool alphabetic(const char c)
 {
-    if ((c >= 'a' && c <= 'z') ||(c >= 'A' && c <= 'Z'))
+    if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
     {
         return true;
     }
@@ -13,28 +13,26 @@ bool alphabetic (const char c)
     }
 }
 
-
-void read_line (char buffer[])
+void read_line(char buffer[])
 {
     char character;
     int i = 0;
 
-    do 
+    do
     {
-        character = getchar ();
+        character = getchar();
         buffer[i] = character;
         i++;
-    }
-    while (character != '\n');
+    } while (character != '\n');
 
     buffer[i - 1] = '\0';
 }
 
-int count_words (const char string[])
+int count_words(const char string[])
 {
     int i, word_count = 0;
     bool looking_for_words = true;
-    bool alphabetic (const char c);
+    bool alphabetic(const char c);
 
     for (i = 0; string[i] != '\0'; i++)
     {
@@ -55,22 +53,21 @@ int count_words (const char string[])
     return word_count;
 }
 
-
-int main (void)
+int main(void)
 {
     char text[81];
     int total_words = 0;
-    
-    int count_words (const char string[]);
-    void read_line (char buffer[]);
+
+    int count_words(const char string[]);
+    void read_line(char buffer[]);
     bool end_of_text = false;
 
     printf("\aType in your text.\n");
     printf("When you are done, press 'ENTER'.\n\n");
 
-    while (! end_of_text)
+    while (!end_of_text)
     {
-        read_line (text);
+        read_line(text);
 
         if (text[0] == '\0')
         {
@@ -78,7 +75,7 @@ int main (void)
         }
         else
         {
-            total_words += count_words (text);
+            total_words += count_words(text);
         }
     }
 

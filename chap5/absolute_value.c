@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-
-int main (void)
+int main(void)
 {
-
     int number;
 
     printf("Type in your number: ");
@@ -15,7 +13,6 @@ int main (void)
     }
 
     printf("The absolute value is %i\n", number);
-
 
     return 0;
 }
